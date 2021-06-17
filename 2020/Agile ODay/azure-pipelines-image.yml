@@ -1,0 +1,11 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'SqlCloneAgent'
+
+steps:
+
+- task: PowerShell@2
+  inputs:
+    filePath: "$(Build.SourcesDirectory)/src/scripts/create-image.ps1"

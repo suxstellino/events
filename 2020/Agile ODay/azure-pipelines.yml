@@ -1,0 +1,25 @@
+trigger:
+- master
+
+pool: 'SqlCloneAgent'
+
+steps:
+- task: PowerShell@2
+  displayName: "Cloning via Posh"
+  inputs:
+    filePath: '$(Build.SourcesDirectory)/src/scripts/create-clone.ps1'
+
+- task: SqlDacpacDeploymentOnMachineGroup@0
+  displayName: "Deploy migration script"
+  inputs:
+    TaskType: 'sqlQuery'
+    SqlFile: '$(Build.SourcesDirectory)\src\scripts\breaking-change.sql'
+    ServerName: 'localhost'
+    DatabaseName: 'StackOverlflow2010-Clone01'
+    AuthScheme: 'windowsAuthentication'
+    timeoutInMinutes: 60
+
+- task: PowerShell@2
+  displayName: "Removing clone"
+  inputs:
+    filePath: '$(Build.SourcesDirectory)/src/scripts/remove-clone.ps1'

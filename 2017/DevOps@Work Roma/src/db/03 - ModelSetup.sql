@@ -1,0 +1,69 @@
+SET NOCOUNT ON;
+GO
+USE SQLSatParmaCD;
+GO
+
+IF EXISTS(SELECT 1 FROM sys.objects WHERE object_id = OBJECT_ID(''))
+	DROP TABLE ;
+GO
+IF EXISTS(SELECT 1 FROM sys.objects WHERE object_id = OBJECT_ID(''))
+	DROP TABLE ;
+GO
+
+-- 
+CREATE TABLE 
+(
+	  
+);
+GO
+
+-- 
+CREATE TABLE 
+(
+	  
+);
+GO
+
+-- FK
+ALTER TABLE  
+ADD CONSTRAINT  FOREIGN KEY () 
+REFERENCES  ();
+GO
+
+-- Data
+INSERT INTO  ()
+VALUES
+        (),
+		(),
+		();
+GO
+
+INSERT INTO  ()
+VALUES
+        (),
+		(),
+		(),
+		(),
+		();
+GO
+
+IF OBJECT_ID('') IS NULL 
+	EXEC ('CREATE PROCEDURE  AS RETURN 0;');
+GO
+
+ALTER PROCEDURE 
+	
+AS
+BEGIN
+
+	SET NOCOUNT ON;
+	
+	SELECT
+	
+	FROM
+	
+	WHERE
+		;
+
+END;
+GO
