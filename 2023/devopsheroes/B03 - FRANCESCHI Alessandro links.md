@@ -1,0 +1,2 @@
+- [Slide](https://www.slideshare.net/Alvagante/devops-evoluzione-della-specie-devops-heroespdf)
+- [Video](https://www.youtube.com/watch?v=jPmsSinpWcY&ab_channel=LaBrigatadeiGeekEstinti)
