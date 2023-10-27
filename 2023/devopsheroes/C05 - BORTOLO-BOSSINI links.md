@@ -1,0 +1,2 @@
+- [Slide](https://github.com/GianniBortoloBossini/doh2023-creare-applicazioni-reali-con-ms-orleans/blob/main/Slides/20231020%20-%20DevOpsHeroes%20-%20Creare%20applicazioni%20REALI%20con%20Microsoft%20Orleans.pdf)
+- [Repo](https://github.com/GianniBortoloBossini/doh2023-creare-applicazioni-reali-con-ms-orleans)
