@@ -1,1 +1,0 @@
-https://github.com/segovoni/sql-server-demos/tree/dc8d64879e090aac93e621a0356b7023c9d0aa70/datasaturday/2022/datasat0022/sql-server-2022-parameter-sensitive-plan-optimization/demos
