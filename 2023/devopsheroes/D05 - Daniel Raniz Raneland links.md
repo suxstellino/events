@@ -1,2 +1,0 @@
-- [Slides](https://raniz85.github.io/three-and-a-half-ways-of-testing-your-repositories/)
-- [Source Repo](https://github.com/Raniz85/three-and-a-half-ways-of-testing-your-repositories)

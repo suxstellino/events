@@ -1,2 +1,0 @@
-- [Slides](https://github.com/segovoni/sql-server-demos/tree/master/datasaturday/2023/datasat0037/tsql-performance-tips-and-tricks)
-- [Video](https://vimeo.com/887301511)
