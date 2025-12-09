@@ -1,0 +1,1 @@
+https://sqlserverfast.com/presentations/t-sql-user-defined-functions-or-how-to-kill-performance-in-one-easy-step/
